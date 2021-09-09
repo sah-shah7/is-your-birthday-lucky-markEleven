@@ -1,0 +1,125 @@
+:root {
+  --main-color: #011756;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: center;
+}
+
+#main {
+  position: center;
+}
+
+#main p {
+  margin: 1rem;
+  position: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--main-color);
+  font-weight: bolder;
+  margin: 1rem 0;
+}
+
+#birthday {
+  border: var(--main-color) solid 3px;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  font-size: x-large;
+  display: block;
+  margin: auto;
+  width: 20rem;
+  text-align: center;
+}
+
+#luckyNum {
+  padding: 1rem 1rem;
+  font-size: larger;
+  margin-top: 2rem;
+  border: var(--main-color) solid 3px;
+  text-align: center;
+  display: block;
+  border-radius: 1rem;
+  font-weight: bold;
+  color: black;
+  width: 20rem;
+  text-align: center;
+}
+
+.btns {
+  margin-top: 1.5rem;
+  border: var(--main-color) solid 3px;
+  outline: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: larger;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+}
+
+
+
+#output {
+  color: var(--main-color);
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+}
+
+
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+.list-item {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.footer-list {
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.list-item {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0rem 0.5rem;
+}
+.footer p{
+    padding-top: 2rem;
+
+
+}
+
+i {
+  color: black;
+}
