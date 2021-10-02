@@ -2,8 +2,9 @@ const dob = document.querySelector('#birthday');
 const luckyNum = document.querySelector('#luckyNum');
 const btn = document.querySelector('#enter');
 const output = document.querySelector('#output');
+const lucky = document.querySelector("#lucky");
+const notLucky = document.querySelector("#notLucky");
 const reset = document.querySelector('#reset');
-//const dobForm = document.querySelector("#") Add <form></form> in html
 
 
 
@@ -52,9 +53,11 @@ function isDivisible(date, num) {
     let sumDigits = parseInt(sum);
 
     if (sumDigits % num == 0) {
-        output.innerText = 'How Lucky! Your Birthdate is lucky.';
+        lucky.style.display = "block";
+        notLucky.style.display = "none";
     } else {
-        output.innerText = 'No Worries! Your Birthdate is not lucky.';
+        notLucky.style.display = "block";
+        lucky.style.display = "none";
     }
 }
 
